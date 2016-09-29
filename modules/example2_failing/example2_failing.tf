@@ -2,7 +2,6 @@
 # This is basically a copy of example1 but as module
 #
 
-variable "aws_region" {}
 variable "stackname" { default = "terraform2" }
 
 module "vpc" {

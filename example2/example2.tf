@@ -16,5 +16,4 @@ provider "aws" {
 # :: code
 module "example2_failing" {
   source = "../modules/example2_failing"
-  aws_region = "${var.aws_region}"
 }
