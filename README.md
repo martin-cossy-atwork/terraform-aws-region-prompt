@@ -3,6 +3,15 @@ example for reproducing the issue as described in https://github.com/hashicorp/t
 
 known affected terraform versions `0.7.2`, ` 0.7.3` and `0.7.4`.
 
+## terraform.tfvars
+you'll need to create your own `terraform.tfvars` file
+
+```hcl 
+aws_region = "us-east-1"
+aws_access_key = "YOURACCESSKEY"
+aws_secret_key = "YOURSECRETKEY"
+```
+
 ## working example (example1 folder)
 
 open a bash shell and execute the following commands
