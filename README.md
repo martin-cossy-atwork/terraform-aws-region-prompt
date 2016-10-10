@@ -1,7 +1,7 @@
 # terraform-aws-region-prompt
 example for reproducing the issue as described in https://github.com/hashicorp/terraform/issues/8680
 
-known affected terraform versions `0.7.2`, ` 0.7.3` and `0.7.4`.
+known affected terraform versions `0.7.2`, ` 0.7.3`,  `0.7.4` and `0.7.5`.
 
 ## terraform.tfvars
 you'll need to create your own `terraform.tfvars` file
