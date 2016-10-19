@@ -1,7 +1,7 @@
 # terraform-aws-region-prompt
 example for reproducing the issue as described in https://github.com/hashicorp/terraform/issues/8680
 
-(!) Please notice that the prompt for `provider.aws.region` will only occur if your `~./aws` credential configuration is missing the configuration for the default region. If not Terraform may silently just read and use those credentials instead of the ones declared configured in the AWS provider.
+(!) Please notice that the prompt for `provider.aws.region` will only occur if your `~./aws` credential configuration is missing the entry for the default region. If not, Terraform may silently just read and use those credentials instead of the ones declared in the AWS provider.
 
 known affected terraform versions `0.7.2`, ` 0.7.3`,  `0.7.4`, `0.7.5` and `0.7.6`.
 
